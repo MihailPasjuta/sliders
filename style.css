@@ -168,7 +168,9 @@ body{margin:0px;}
 .menu.menu_state_open .menu__links {
   display: block;  
 }
-
+.slider_auto_logo_adaptive{
+	display:none;
+}
 @media screen and (max-width: 999px) {
 	  .menu__icon{
 		display: inline-block;
@@ -239,5 +241,22 @@ display:block;
 		  top:0;
 		  left:0;
 	  }
+	 .slider_auto_logo_adaptive{
+		 display:block;
+	position:absolute;
+	z-index:5;
+}
+		.img_logo_adaptive{
+			position:relative;
+			top:1.4vw;
+			left:12.5vw;
+			height:60px;
+		}
+		.img_logo_text_adaptive{
+			position:relative;
+			top:2.4vw;
+			left:8.2vw;
+			height:41px;
+		}
 }
   
