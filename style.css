@@ -113,9 +113,9 @@ body{margin:0px;}
 }
 .menu__icon {
     display: none;
-    width: 4px;
+    width: 40px;
     height: 2vw;
-	top:9vw;
+	margin-top:120px;
 	left:85vw;
     position: relative;
     cursor: pointer;
@@ -125,7 +125,7 @@ body{margin:0px;}
     display: block;
     position: absolute;
     height: 0.1vw;
-    width: 4vw;
+    width: 35px;
     background: #ffffff;
     border-radius: 9px;
     opacity: 1;
@@ -183,10 +183,9 @@ body{margin:0px;}
 	  .menu__links {
 		position: fixed;
 		display: none;
-		top: 0;
 		right: 0;
 		left: 0;
-		margin-top: 13vw;
+		margin-top: 170px;
 		background-color: rgba(0, 0, 0, 0.8);
 		z-index: 1000;
 		overflow: auto;
@@ -249,15 +248,15 @@ display:block;
 }
 		.img_logo_adaptive{
 			position:absolute;
-			margin-top:25px;
-			margin-left:157px;
-			height:110px;
+			margin-top:30px;
+			margin-left:123px;
+			height:41%;
 		}
 		.img_logo_text_adaptive{
 			position:relative;
-			margin-top:131.5px;
+			margin-top:100px;
 			margin-left:70px;
-			height:80px;
+			height:15%;
 		}
 }
   
