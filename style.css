@@ -88,11 +88,12 @@ body{margin:0px;}
 	padding-left:1vw;
 	padding-right:2vw;
 	font-size:4vw;
+	margin-left:0.8vw;
 }
 .slider_auto_logo_text{
 	height:4vw;
 	width:16vw;
-	margin-left:2vw;
+	margin-left:0vw;
 }
 .menu__links-item {
     display: inline-block;
@@ -168,7 +169,7 @@ body{margin:0px;}
 .menu.menu_state_open .menu__links {
   display: block;  
 }
-.slider_auto_logo_adaptive{
+.auto_logo_adaptive{
 	display:none;
 }
 @media screen and (max-width: 999px) {
@@ -241,21 +242,21 @@ display:block;
 		  top:0;
 		  left:0;
 	  }
-	 .slider_auto_logo_adaptive{
+	 .auto_logo_adaptive{
 		 display:block;
 	position:absolute;
 	z-index:5;
 }
 		.img_logo_adaptive{
-			position:relative;
-			top:1.4vw;
-			left:12.5vw;
-			height:60px;
+			position:absolute;
+			margin-top:13.5px;
+			margin-left:122.3px;
+			height:60.5px;
 		}
 		.img_logo_text_adaptive{
 			position:relative;
-			top:2.4vw;
-			left:8.2vw;
+			margin-top:70px;
+			margin-left:80px;
 			height:41px;
 		}
 }
