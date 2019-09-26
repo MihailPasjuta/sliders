@@ -62,14 +62,21 @@ body{margin:0px;}
 .hr_left{
 	position:absolute;
 	width:39vw;
-	height:0.1px;
 	margin-top:2.2vw;
+	border: none; 
+    background-color: #5b4b41; 
+    color: #5b4b41; 
+    height: 0.5px;
 }
 .hr_right{
 	position:absolute;
 	width:42.85vw;
 	margin-top:2.2vw;
 	margin-left:57vw;
+	border: none; 
+    background-color: #5b4b41; 
+    color: #5b4b41; 
+    height: 0.5px;
 	
 }
 .menu__links{
@@ -174,6 +181,22 @@ body{margin:0px;}
 .auto_logo_adaptive{
 	display:none;
 }
+.slider_auto_bottom_text{
+	 display:block;
+	position:absolute;
+	z-index:5;
+	width:100%;
+	text-align:center;
+	color:#ffffff;
+	margin-top:41vw;
+	font-family: 'Questrial', sans-serif;
+}
+.prestigious{
+	font-size:2.1vw;
+}
+.made_in_italy{
+	font-size:1.1vw;
+}
 @media screen and (max-width: 999px) {
 	  .menu__icon{
 		display: inline-block;
@@ -230,24 +253,24 @@ height:150vw;
 display:block;
 	   }
 		
-	  &.slick-active img {
-		  transform: scale(1);
-	  }
+		&.slick-active img {
+			transform: scale(1);
+		}
 	  
-	  .slider_mask{
-		  position:absolute;
-		  z-index: 2;
-		  height: 100%;
-		  background-image: linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(255,255,255,0));
-		  opacity: 1; 
-		  top:0;
-		  left:0;
-	  }
-	 .auto_logo_adaptive{
-		 display:block;
-	position:absolute;
-	z-index:5;
-}
+		.slider_mask{
+			position:absolute;
+			z-index: 2;
+			height: 100%;
+			background-image: linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(255,255,255,0));
+			opacity: 1; 
+			top:0;
+			left:0;
+		 }
+		.auto_logo_adaptive{
+			display:block;
+			position:absolute;
+			z-index:5;
+		}
 		.img_logo_adaptive{
 			position:absolute;
 			margin-top:30px;
@@ -259,6 +282,22 @@ display:block;
 			margin-top:180px;
 			margin-left:70px;
 			height:600%;
+		}
+		.slider_auto_bottom_text{
+			display:block;
+			position:absolute;
+			z-index:5;
+			width:100%;
+			text-align:center;
+			color:#ffffff;
+			margin-top:125vw;
+			font-family: 'Questrial', sans-serif;
+		}
+		.prestigious{
+			font-size:6vw;
+		}
+		.made_in_italy{
+			font-size:4vw;
 		}
 }
   
