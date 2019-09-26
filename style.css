@@ -42,7 +42,7 @@ body{margin:0px;}
 	  z-index: 2;
 	  height: 100%;
       width: 100%;
-	  background-image: linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(255,255,255,0));
+	  background-image: linear-gradient(to bottom,rgba(0,0,0,0.9),rgba(255,255,255,0));
 	  opacity: 1; 
 	  top:0;
 	  left:0;
@@ -64,8 +64,9 @@ body{margin:0px;}
 	width:39vw;
 	margin-top:2.2vw;
 	border: none; 
-    background-color: #5b4b41; 
-    color: #5b4b41; 
+    background-color: rgba(85,70,61, 0.8); 
+    color: rgba(85,70,61, 0.8); 
+	opacity:0.8;
     height: 0.5px;
 }
 .hr_right{
@@ -74,8 +75,9 @@ body{margin:0px;}
 	margin-top:2.2vw;
 	margin-left:57vw;
 	border: none; 
-    background-color: #5b4b41; 
-    color: #5b4b41; 
+   background-color: rgba(85,70,61, 0.8); 
+    color: rgba(85,70,61, 0.8); 
+	opacity:0.8;
     height: 0.5px;
 	
 }
@@ -249,8 +251,8 @@ body{margin:0px;}
 	  }
 	  .img_back{
 		object-fit: cover;
-height:150vw;
-display:block;
+		height:150vw;
+		display:block;
 	   }
 		
 		&.slick-active img {
@@ -261,7 +263,7 @@ display:block;
 			position:absolute;
 			z-index: 2;
 			height: 100%;
-			background-image: linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(255,255,255,0));
+			background-image: linear-gradient(to bottom,rgba(0,0,0,0.9),rgba(255,255,255,0));
 			opacity: 1; 
 			top:0;
 			left:0;
