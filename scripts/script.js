@@ -10,3 +10,4 @@
     cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
     touchThreshold: 100
   })
+  

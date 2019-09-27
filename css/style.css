@@ -200,8 +200,57 @@ overflow-x:hidden;
 .slider2{
 	position:relative;
 	width:100%;
-	background-color:yellow;
+	background-color:#eeedeb;
 	z-index:5;
+}
+.screen_slider_click{
+	position:absolute;
+	height:44vw;
+}
+
+.image_screen{
+	position:absolute;
+	height:100%;
+	width:61%;
+	left:39%;
+}
+
+.head_screen{
+	position:absolute;
+	font-size:4vw;
+	font-family: 'Source Code Pro', monospace;
+	margin-left:6%;
+	margin-top:5%;
+	font-style:bold;
+	color:#231f20;
+}
+.news_date{
+	font-size:1.3vw;
+	font-family: 'Roboto', sans-serif;
+	margin-left:6%;
+	margin-top:21%;
+	font-style:bold;
+	color:#49144c;
+}
+.news_name{
+	font-size:1.9vw;
+	font-family: 'Roboto', sans-serif;
+	margin-left:6%;
+	width:28%;
+	margin-top:1%;
+	font-style:bold;
+	color:#231f20;
+	line-height:1.2;
+}
+.news_description{
+	font-size:1.2vw;
+	font-family: 'Montserrat', sans-serif;
+	margin-left:6%;
+	width:25%;
+	margin-top:2%;
+	font-style:bold;
+	color:#6d6d6d;
+	line-height:1.5;
 }
 @media screen and (max-width: 999px) {
 	  .menu__icon{
@@ -305,6 +354,64 @@ overflow-x:hidden;
 		}
 		.made_in_italy{
 			font-size:4vw;
+		}
+		.slider2{
+			position:relative;
+			width:100%;
+			background-color:#eeedeb;
+			z-index:5;
+		}
+		.screen_slider_click{
+			position:absolute;
+			height:160vw;
+		}
+
+		.image_screen{
+			position:absolute;
+			width:95%;
+			margin-top:20%;
+			height:70vw;
+			object-fit: cover;
+			display:block;
+			margin-left:-37%;
+		}
+
+		.head_screen{
+			position:absolute;
+			font-size:8vw;
+			font-family: 'Source Code Pro', monospace;
+			margin-left:2%;
+			top:2%;
+			font-style:bold;
+			color:#231f20;
+		}
+		.news_date{
+			font-size:4vw;
+			font-family: 'Roboto', sans-serif;
+			margin-left:2%;
+			margin-top:95%;
+			font-style:bold;
+			color:#49144c;
+		}
+		.news_name{
+			font-size:5.5vw;
+			font-family: 'Roboto', sans-serif;
+			margin-left:2%;
+			width:95%;
+			margin-top:2%;
+			font-style:bold;
+			color:#231f20;
+			line-height:1.2;
+		}
+		.news_description{
+			font-size:4.2vw;
+			font-family: 'Montserrat', sans-serif;
+			margin-left:2%;
+			width:90%;
+			margin-top:2%;
+			font-style:bold;
+			color:#6d6d6d;
+			line-height:1.5;
 		}
 }
   
