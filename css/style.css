@@ -393,7 +393,7 @@ overflow-x:hidden;
 			position:absolute;
 			font-size:8vw;
 			font-family: 'Source Code Pro', monospace;
-			margin-left:4%;
+			margin-left:4.2%;
 			top:2%;
 			font-style:bold;
 			color:#231f20;
@@ -401,7 +401,7 @@ overflow-x:hidden;
 		.news_date{
 			font-size:4vw;
 			font-family: 'Roboto', sans-serif;
-			margin-left:4%;
+			margin-left:4.2%;
 			margin-top:95%;
 			font-style:bold;
 			color:#49144c;
@@ -409,7 +409,7 @@ overflow-x:hidden;
 		.news_name{
 			font-size:5.5vw;
 			font-family: 'Roboto', sans-serif;
-			margin-left:4%;
+			margin-left:4.2%;
 			width:95%;
 			margin-top:2%;
 			font-style:bold;
@@ -419,7 +419,7 @@ overflow-x:hidden;
 		.news_description{
 			font-size:4.2vw;
 			font-family: 'Montserrat', sans-serif;
-			margin-left:4%;
+			margin-left:4.2%;
 			width:90%;
 			margin-top:2%;
 			font-style:bold;
