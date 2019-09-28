@@ -121,7 +121,7 @@ overflow-x:hidden;
     width: 50px;
     height: 50px;
 	margin-top:200px;
-	left:85vw;
+	left:100vw;
     position: relative;
     cursor: pointer;
 	transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
@@ -273,6 +273,7 @@ overflow-x:hidden;
 		z-index: 1000;
 		overflow: auto;
 		height:58vw;
+		width:100%;
 	  }
 	  
 	  .menu__links-item {
@@ -337,15 +338,15 @@ overflow-x:hidden;
 		}
 		.img_logo_adaptive{
 			position:absolute;
-			margin-top:30px;
-			margin-left:170px;
-			height:850%;
+			margin-top:45px;
+			margin-left:202px;
+			height:855%;
 		}
 		.img_logo_text_adaptive{
 			position:absolute;
 			margin-top:180px;
-			margin-left:70px;
-			height:600%;
+			margin-left:100px;
+			height:605%;
 		}
 		.slider_auto_bottom_text{
 			display:block;
@@ -355,6 +356,7 @@ overflow-x:hidden;
 			text-align:center;
 			color:#ffffff;
 			top:125vw;
+			left:73px;
 			font-family: 'Questrial', sans-serif;
 		}
 		.prestigious{
