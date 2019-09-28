@@ -253,6 +253,9 @@ overflow-x:hidden;
 	line-height:1.5;
 }
 @media screen and (max-width: 999px) {
+	body{margin:0px;
+overflow-x:hidden;
+}
 	  .menu__icon{
 		display: inline-block;
 	  }
@@ -286,12 +289,16 @@ overflow-x:hidden;
 		display:none;
 	}
 	.slideshow {
-	  position: relative;
-	  z-index: 1;
-	  height:150vw;
-	  background-color:#333;
-	  overflow: hidden;
-	  
+		position: relative;
+		z-index: 1;
+		height:150vw;
+		background-color:#333;
+		overflow: hidden;
+		padding-right: 40px;
+		right: -40px;
+		overflow-y: scroll;
+		left:-20px;
+		width:112%
 	}
 	  .slider-track {
 		transition: all 2s cubic-bezier(0.7, 0, 0.3, 1);
@@ -301,11 +308,13 @@ overflow-x:hidden;
 		height:100%;
 		position: relative;
 		z-index: 1;
+		
 	  }
 	  .img_back{
 		object-fit: cover;
 		height:150vw;
 		display:block;
+		
 	   }
 		
 		&.slick-active img {
@@ -320,6 +329,7 @@ overflow-x:hidden;
 			opacity: 1; 
 			top:0;
 			left:0;
+			width:112%
 		 }
 		.auto_logo_adaptive{
 			display:block;
@@ -357,9 +367,12 @@ overflow-x:hidden;
 		}
 		.slider2{
 			position:relative;
-			width:100%;
+			width:102.5%;
 			background-color:#eeedeb;
 			z-index:5;
+			padding-right: 20px;
+			right: -20px;
+			left:-20px;
 		}
 		.screen_slider_click{
 			position:absolute;
@@ -373,14 +386,14 @@ overflow-x:hidden;
 			height:70vw;
 			object-fit: cover;
 			display:block;
-			margin-left:-37%;
+			margin-left:-34.7%;
 		}
 
 		.head_screen{
 			position:absolute;
 			font-size:8vw;
 			font-family: 'Source Code Pro', monospace;
-			margin-left:2%;
+			margin-left:4%;
 			top:2%;
 			font-style:bold;
 			color:#231f20;
@@ -388,7 +401,7 @@ overflow-x:hidden;
 		.news_date{
 			font-size:4vw;
 			font-family: 'Roboto', sans-serif;
-			margin-left:2%;
+			margin-left:4%;
 			margin-top:95%;
 			font-style:bold;
 			color:#49144c;
@@ -396,7 +409,7 @@ overflow-x:hidden;
 		.news_name{
 			font-size:5.5vw;
 			font-family: 'Roboto', sans-serif;
-			margin-left:2%;
+			margin-left:4%;
 			width:95%;
 			margin-top:2%;
 			font-style:bold;
@@ -406,7 +419,7 @@ overflow-x:hidden;
 		.news_description{
 			font-size:4.2vw;
 			font-family: 'Montserrat', sans-serif;
-			margin-left:2%;
+			margin-left:4%;
 			width:90%;
 			margin-top:2%;
 			font-style:bold;

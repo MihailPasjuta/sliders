@@ -6,4 +6,5 @@ $('.fade').slick({
   autoplaySpeed:3000,
   fade: true,
   cssEase: 'linear',
+  arrows : false,
 });
