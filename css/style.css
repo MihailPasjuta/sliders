@@ -293,12 +293,10 @@ overflow-x:hidden;
 		z-index: 1;
 		height:150vw;
 		background-color:#333;
-		overflow: hidden;
-		padding-right: 40px;
-		right: -40px;
-		overflow-y: scroll;
+		overflow-x:hidden;
 		left:-20px;
-		width:112%
+		right: -20px;
+		width:117%;
 	}
 	  .slider-track {
 		transition: all 2s cubic-bezier(0.7, 0, 0.3, 1);
@@ -329,7 +327,7 @@ overflow-x:hidden;
 			opacity: 1; 
 			top:0;
 			left:0;
-			width:112%
+			width:115%
 		 }
 		.auto_logo_adaptive{
 			display:block;
@@ -367,7 +365,7 @@ overflow-x:hidden;
 		}
 		.slider2{
 			position:relative;
-			width:102.5%;
+			width:115%;
 			background-color:#eeedeb;
 			z-index:5;
 			padding-right: 20px;
@@ -386,14 +384,14 @@ overflow-x:hidden;
 			height:70vw;
 			object-fit: cover;
 			display:block;
-			margin-left:-34.5%;
+			margin-left:-35%;
 		}
 
 		.head_screen{
 			position:absolute;
 			font-size:8vw;
 			font-family: 'Source Code Pro', monospace;
-			margin-left:4.2%;
+			margin-left:4%;
 			top:2%;
 			font-style:bold;
 			color:#231f20;
@@ -402,7 +400,7 @@ overflow-x:hidden;
 			font-size:4vw;
 			font-family: 'Roboto', sans-serif;
 			margin-left:4.2%;
-			margin-top:95%;
+			margin-top:84%;
 			font-style:bold;
 			color:#49144c;
 		}
