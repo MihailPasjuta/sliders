@@ -367,7 +367,7 @@ overflow-x:hidden;
 		}
 		.slider2{
 			position:relative;
-			width:102.5%;
+			width:115%;
 			background-color:#eeedeb;
 			z-index:5;
 			padding-right: 20px;
@@ -381,12 +381,12 @@ overflow-x:hidden;
 
 		.image_screen{
 			position:absolute;
-			width:95%;
+			width:94%;
 			margin-top:20%;
 			height:70vw;
 			object-fit: cover;
 			display:block;
-			margin-left:-34.5%;
+			margin-left:-34.7%;
 		}
 
 		.head_screen{
@@ -402,7 +402,7 @@ overflow-x:hidden;
 			font-size:4vw;
 			font-family: 'Roboto', sans-serif;
 			margin-left:4.2%;
-			margin-top:95%;
+			margin-top:84%;
 			font-style:bold;
 			color:#49144c;
 		}
