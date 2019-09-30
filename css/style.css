@@ -252,6 +252,21 @@ overflow-x:hidden;
 	color:#6d6d6d;
 	line-height:1.5;
 }
+
+.weather{
+	position:relative;
+	width:100%;
+	z-index:5;
+}
+.name_town{
+	margin-top:30px;
+	margin-left:30px;
+}
+.weather_result{
+	margin-top:30px;
+	margin-left:30px;
+}
+
 @media screen and (max-width: 999px) {
 	body{margin:0px;
 overflow-x:hidden;
@@ -425,6 +440,18 @@ overflow-x:hidden;
 			font-style:bold;
 			color:#6d6d6d;
 			line-height:1.5;
+		}
+		.name_town{
+			margin-top:30px;
+			margin-left:30px;
+			width:31vw;
+			height:5vw;
+			font-size:30px;
+		}
+			.weather_result{
+			margin-top:30px;
+			margin-left:30px;
+			font-size:35px;
 		}
 }
   
