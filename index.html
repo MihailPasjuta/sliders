@@ -149,18 +149,20 @@
 	</div>
 </div>
 	<div class="weather">
-		<select id="town" class="name_town">
-		<option value="" selected disabled hidden>Выберите город</option>
-			<option value="Poltava">Полтава</option>
-			<option value="Kiev">Киев</option>
-			<option value="Kharkiv">Харьков</option>
-			<option value="Sumy">Суммы</option>
-			<option value="Dnipropetrovsk">Днепр</option>
-			<option value="Lviv">Львов</option>
-		</select>
-		<div id="show_result" class="weather_result"></div>
-		</br>
-		</br>
+		<div class="weather_div">
+			<h2 class="weather_head">Weather</h2>
+			<select id="town" class="name_town">
+			<option value="" selected disabled hidden>Выберите город</option>
+				<option value="Poltava">Полтава</option>
+				<option value="Kiev">Киев</option>
+				<option value="Kharkiv">Харьков</option>
+				<option value="Sumy">Суммы</option>
+				<option value="Dnipropetrovsk">Днепр</option>
+				<option value="Lviv">Львов</option>
+			</select>
+			<div id="show_result_categories" class="weather_result_categories"></div>
+			<div id="show_result_information" class="weather_result_information"></div>
+		</div>
 	</div>
     <script src="scripts/index.js" defer></script>
 	
