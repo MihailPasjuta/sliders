@@ -5,7 +5,8 @@ town.addEventListener('change',(event)=>{
 	fetch("https://openweathermap.org/data/2.5/weather?q="+town.value+",ua&appid=b6907d289e10d714a6e88b30761fae22",{method: 'GET'})
 					.then(res=>res.json())
 					.then(res=>{
-						
+						show_result_categories.style.display="block";
+						show_result_information.style.display="block";;
 						show_result_categories.innerHTML=
 							"</br>Weather: <hr/>"
 							+"</br>Temperature: <hr/>"

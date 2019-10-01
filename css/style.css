@@ -279,6 +279,7 @@ overflow-x:hidden;
 }
 .weather_result_categories{
 	position:absolute;
+	display:none;
 	top:65px;
 	left:250px;
 	font-size:20px;
@@ -289,6 +290,7 @@ overflow-x:hidden;
 }
 .weather_result_information{
 	position:absolute;
+	display:none;
 	top:65px;
 	left:370px;
 	font-size:20px;
